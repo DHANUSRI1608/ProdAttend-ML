@@ -1,13 +1,24 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
+<<<<<<< HEAD
 import { Home, ScanLine, ListOrdered, BarChart3, Factory } from "lucide-react";
+=======
+import {
+  Home,
+  ScanLine,
+  ListOrdered,
+  BarChart3,
+  Factory,
+} from "lucide-react";
+>>>>>>> 50af2e90bc3d72865ed125cb69ceed1dc638c5c3
 
 export default function Sidebar() {
   const location = useLocation();
 
   const links = [
     { name: "Home", path: "/", icon: <Home size={18} /> },
+<<<<<<< HEAD
     {
       name: "Scan Attendance",
       path: "/attendance",
@@ -28,6 +39,11 @@ export default function Sidebar() {
       path: "/StockManagement",
       icon: <BarChart3 size={18} />,
     },
+=======
+    { name: "Scan Attendance", path: "/attendance", icon: <ScanLine size={18} /> },
+    { name: "Attendance List", path: "/attendance-list", icon: <ListOrdered size={18} /> },
+    { name: "Dashboard", path: "/dashboard", icon: <BarChart3 size={18} /> },
+>>>>>>> 50af2e90bc3d72865ed125cb69ceed1dc638c5c3
   ];
 
   return (

@@ -66,6 +66,7 @@
     @apply bg-background text-foreground;
   }
 }
+<<<<<<< HEAD
 
 /* 🌐 Base styles for all devices */
 body {
@@ -174,3 +175,5 @@ body {
     font-size: 1.2rem;
   }
 }
+=======
+>>>>>>> 50af2e90bc3d72865ed125cb69ceed1dc638c5c3

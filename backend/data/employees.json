@@ -4,11 +4,16 @@
         "name": "Alice",
         "age": 25,
         "department": "Spring",
+<<<<<<< HEAD
         "working": false,
+=======
+        "working": true,
+>>>>>>> 50af2e90bc3d72865ed125cb69ceed1dc638c5c3
         "qr_code": "qrcodes/emp_1.png",
         "attendance": [
             {
                 "date": "2025-10-15",
+<<<<<<< HEAD
                 "time": "08:15:00",
                 "login_time": "08:15:00",
                 "logout_time": "18:57:35"
@@ -17,6 +22,9 @@
                 "date": "2026-04-22",
                 "login_time": "10:21:23",
                 "logout_time": "10:22:22"
+=======
+                "time": "08:15:00"
+>>>>>>> 50af2e90bc3d72865ed125cb69ceed1dc638c5c3
             }
         ]
     },
@@ -27,6 +35,7 @@
         "department": "Foam",
         "working": true,
         "qr_code": "qrcodes/emp_2.png",
+<<<<<<< HEAD
         "attendance": [
             {
                 "date": "2025-10-15",
@@ -215,6 +224,8 @@
         "department": "Tailoring",
         "working": false,
         "qr_code": "qrcodes/emp_15.png",
+=======
+>>>>>>> 50af2e90bc3d72865ed125cb69ceed1dc638c5c3
         "attendance": []
     }
 ]

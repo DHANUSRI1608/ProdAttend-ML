@@ -203,4 +203,8 @@ export default function AttendanceScan() {
       </div>
     </div>
   );
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 50af2e90bc3d72865ed125cb69ceed1dc638c5c3

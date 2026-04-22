@@ -35,7 +35,11 @@ export default function WelcomeHero() {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1 }}
         >
+<<<<<<< HEAD
           Welcome to Smart Workforce
+=======
+          Welcome to ProdAttend
+>>>>>>> 50af2e90bc3d72865ed125cb69ceed1dc638c5c3
         </motion.h1>
 
         {/* Subtitle */}
@@ -45,8 +49,12 @@ export default function WelcomeHero() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.3, duration: 1 }}
         >
+<<<<<<< HEAD
           Empowering your factory with real-time attendance, predictive
           analytics, and productivity visualization.
+=======
+          Empowering your factory with real-time attendance, predictive analytics, and productivity visualization.
+>>>>>>> 50af2e90bc3d72865ed125cb69ceed1dc638c5c3
         </motion.p>
 
         {/* Slogan box (fixed height) */}
@@ -78,7 +86,13 @@ export default function WelcomeHero() {
           animate={{ scale: 1, opacity: 1 }}
           transition={{ delay: 0.8, duration: 0.6 }}
         >
+<<<<<<< HEAD
          
+=======
+          <button className="px-10 py-4 text-lg font-semibold rounded-full bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-purple-600 hover:to-indigo-500 shadow-lg shadow-indigo-900/40 transition-all duration-300">
+            🚀 Get Started
+          </button>
+>>>>>>> 50af2e90bc3d72865ed125cb69ceed1dc638c5c3
         </motion.div>
       </div>
 

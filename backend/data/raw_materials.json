@@ -1,4 +1,5 @@
 [
+<<<<<<< HEAD
     {
         "id": 3,
         "material": "Spring Coils",
@@ -42,3 +43,9 @@
         "last_updated": "2025-10-16T07:00:19.297603"
     }
 ]
+=======
+  { "material": "Steel", "quantity": 1000, "department": "Bonnell Coiling" },
+  { "material": "Foam", "quantity": 500, "department": "Foam Cutting" },
+  { "material": "Thread", "quantity": 2000, "department": "Quilting" }
+]
+>>>>>>> 50af2e90bc3d72865ed125cb69ceed1dc638c5c3
